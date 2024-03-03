@@ -16,6 +16,8 @@ public class CA2 {
     // Link to my github: https://github.com/Julio-Malfa/CA2s
     
     public static void main(String[] args) {
+        EmployeeTest employeeTest = new EmployeeTest();
+        EmployeeTest.main(args);
         /*
         // Accessing Employee to test check for a valid email address
         Employee employee = new Employee();

@@ -10,14 +10,18 @@ import java.util.Scanner;
  *
  * @author julio
  */
-public class EmplooyeeTest {
+class EmployeeTest {
     public static void main(String[] args) {
-    
-    // Create Employee Array with 3 objects.    
+        
+    // Create Employee Array with 3 objects. 
     Employee joe = new Employee("Joe Bloggs", "jb@gmail.com");
     Employee ann = new Employee("Ann Banana", "ab@gmail.com");
     Employee tom = new Employee("Tom Thumb", "tt@gmail.com");   
-    
+        /*Employee tom = new Employee();
+        tom.setName("Tom Thumb");
+        tom.setEmail("tt@gmail.com"); */       
+         
+        
     // Created Array with name projectGroup
     Employee[] projectGroup = {joe, ann, tom};
         
@@ -34,6 +38,13 @@ public class EmplooyeeTest {
             if(projectGroup[i].getEmpNum() >=m) {
                 System.out.println(projectGroup[i].getName());
             }
-        }       
+        }
+        
+    //         
+    Company company = new Company("Business Gnómes Ltd");
+    company.addNewStaff(joe);
+    company.addNewStaff(ann);
+    company.addNewStaff(tom);
+
 }
 }
