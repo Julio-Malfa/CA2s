@@ -34,9 +34,6 @@ public class EmplooyeeTest {
             if(projectGroup[i].getEmpNum() >=m) {
                 System.out.println(projectGroup[i].getName());
             }
-        }
-    
-    
+        }       
 }
-
 }

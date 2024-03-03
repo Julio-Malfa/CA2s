@@ -14,10 +14,13 @@ public class CA2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        /*
         // Accessing Employee to test check for a valid email address
         Employee employee = new Employee();
         employee.setEmail("jj");
         System.out.println("email " +employee.getEmail());
+        */         
+                  
     }
     
 }
