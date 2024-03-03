@@ -13,6 +13,8 @@ public class CA2 {
     /**
      * @param args the command line arguments
      */
+    // Link to my github: https://github.com/Julio-Malfa/CA2s
+    
     public static void main(String[] args) {
         /*
         // Accessing Employee to test check for a valid email address
