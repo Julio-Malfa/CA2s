@@ -66,7 +66,7 @@ public class Employee {
     }
     
      // Acessor methods for nextEmpNum
-    public int getnextEmpNum(){
+    public int getNextEmpNum(){
         return nextEmpNum;
     }
     
