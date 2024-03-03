@@ -17,11 +17,7 @@ class EmployeeTest {
     Employee joe = new Employee("Joe Bloggs", "jb@gmail.com");
     Employee ann = new Employee("Ann Banana", "ab@gmail.com");
     Employee tom = new Employee("Tom Thumb", "tt@gmail.com");   
-        /*Employee tom = new Employee();
-        tom.setName("Tom Thumb");
-        tom.setEmail("tt@gmail.com"); */       
-         
-        
+ 
     // Created Array with name projectGroup
     Employee[] projectGroup = {joe, ann, tom};
         
