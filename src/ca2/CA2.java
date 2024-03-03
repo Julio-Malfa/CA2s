@@ -16,7 +16,7 @@ public class CA2 {
     public static void main(String[] args) {
         // Accessing Employee to test check for a valid email address
         Employee employee = new Employee();
-        employee.setEmail("jjdwdad");
+        employee.setEmail("jj");
         System.out.println("email " +employee.getEmail());
     }
     
