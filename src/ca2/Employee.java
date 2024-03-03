@@ -8,6 +8,7 @@ package ca2;
  *
  * @author julio
  */
+// Created new class employee.
 public class Employee {
     
     private String name;
@@ -15,12 +16,21 @@ public class Employee {
     private int empNum;
     private int nextEmpNum = 1;
     
+    public Employee() {
+    super();
+        name="";
+        email="";
+        nextEmpNum++;
+        empNum = nextEmpNum;
+    }    
+    
     // Creating the constructors for name, email, empNum and nextEmpNum
-    public Employee(String name, String email, int empNum, int nextEmpNum){
-        setName(name);
-        setEmail(email);
-        setEmpNum(empNum);
-        setNextEmpNum (nextEmpNum);        
+    public Employee(String name, String email){
+    super();
+        this.name = name;
+        this.email = email;
+        nextEmpNum++;
+        empNum = nextEmpNum;
     }
     
     // Acessor methods for name.
@@ -63,14 +73,7 @@ public class Employee {
       public void setNextEmpNum (int nextEmpNum) {
         this.nextEmpNum = nextEmpNum++;
     }
-    
-    // Creating constructor for Employee with default value
-   public Employee(){
-        this.name = "Annita Dick";
-        this.email = "annita.dick@gmail.com";
-        this.empNum = nextEmpNum++;        
-    } 
-    
+       
 }
 
     
