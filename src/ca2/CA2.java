@@ -16,15 +16,24 @@ public class CA2 {
     // Link to my github: https://github.com/Julio-Malfa/CA2s
     
     public static void main(String[] args) {
-        EmployeeTest employeeTest = new EmployeeTest();
-        EmployeeTest.main(args);
+        
         /*
         // Accessing Employee to test check for a valid email address
         Employee employee = new Employee();
         employee.setEmail("jj");
         System.out.println("email " +employee.getEmail());
-        */         
-                  
-    }
-    
+        */  
+        
+         /*
+        // Accessing EmployeeTest     
+        EmployeeTest employeeTest = new EmployeeTest();
+        EmployeeTest.main(args);   
+        */ 
+        /* 
+        // Accessing Company  
+        Company company = new Company();
+        company.listEmployees(0);
+        */          
+        
+    }    
 }
